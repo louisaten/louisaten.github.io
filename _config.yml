@@ -1,1 +1,1 @@
-exclude: ["Rakefile", "README.md"]
+exclude: ["Rakefile", "README.md", "CNAME"]
