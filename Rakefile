@@ -1,5 +1,6 @@
-desc "Install resume-cli"
-task :install_deps do
+desc "Pull and update"
+task :update do
+  sh 'git pull origin master'
   sh 'npm install -g resume-cli'
 end
 
